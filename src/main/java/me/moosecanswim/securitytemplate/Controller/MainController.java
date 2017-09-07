@@ -95,6 +95,10 @@ public class MainController {
         }
         return "redirect:/admin";
     }
+    @RequestMapping("/mypage")
+    public String myUserPage(){
+    return "mypage";
+    }
 
 
 
