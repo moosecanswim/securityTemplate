@@ -34,7 +34,7 @@
                                         <td th:text="*{u.firstName}"></td>
                                         <td th:text="*{u.lastName}"></td>
                                         <td th:text="*{u.email}"></td>
-                                        <td><a th:href="@{/toggleuserstatus/{id} (id=*{u.id})}" th:text="*{u.enabled}"></a></td>
+                                        <td><a th:href="@{/togglestatus/{id} (id=*{u.id})}" th:text="*{u.enabled}"></a></td>
                                         <td th:text="*{u.roles}"></td>
                                         <td>
                                             <p>

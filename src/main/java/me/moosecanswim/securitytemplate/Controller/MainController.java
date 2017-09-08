@@ -84,7 +84,7 @@ public class MainController {
         return "redirect:/admin";
     }
 
-    @RequestMapping("/toggleuserstatus/{id}")
+    @RequestMapping("/togglestatus/{id}")
     public String toggleUserStatus(@PathVariable("id")long id){
         Uzer tempUser=uzerRepository.findOne(id);
         if(tempUser.isEnabled()){
